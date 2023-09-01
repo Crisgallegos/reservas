@@ -63,9 +63,15 @@ button:hover{
   .btn-3,
   .btn-4,
   .btn-5 {
-      width: 150px;
-      height: 150px;
-      border-radius: 15px;
+      width: 130px;
+      height: 130px;
+      border-radius: 10px;
+      font-size: 10pt;
+      align-items: center;
+      text-align: center;
+  }
+  img {
+    width: 20%;
   }
 }
   
