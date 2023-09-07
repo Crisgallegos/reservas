@@ -43,7 +43,7 @@
                 <tbody>
                     <tr>
                         <td>08:00 - 09:45</td>
-                        <td class="p-3" style="background-color: #cb2500; color: #ffffff;">Reservado <a href="" class="btn-ver p-1"><i class="fa-solid fa-eye fa-lg" style="color: #ffffff;"></i></a></td>
+                        <td class="p-3" style="background-color: #cb2500; color: #ffffff;">Reservado <a href="" class="btn-ver p-1" data-bs-toggle="modal" data-bs-target="#detalle"><i class="fa-solid fa-eye fa-lg" style="color: #ffffff;"></i></a></td>
                         <td class="p-3" style="background-color: #cb2500; color: #ffffff;" >Reservado <a href="" class="btn-ver p-1"><i class="fa-solid fa-eye fa-lg" style="color: #ffffff;"></i></a></td>
                     </tr>
                     <tr>
@@ -70,6 +70,23 @@
             </table>
         </div>
     </section>
+    <div class="modal fade" id="detalle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Detalle Reserva</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <script src="https://kit.fontawesome.com/da377f274a.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
