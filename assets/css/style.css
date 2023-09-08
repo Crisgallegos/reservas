@@ -56,9 +56,7 @@ body{
   margin: 20px;
   font-weight: 700;
 }
-button:hover{
-    background-color: rgb(234, 246, 255);
-}
+
 form{
   width: 45%;
   background-color: #fff;
